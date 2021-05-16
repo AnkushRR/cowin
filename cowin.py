@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 
 options = Options()
 options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe' #REplace with your firefox binary path
-driver = webdriver.Firefox(executable_path=r'C:\WebDrivers\geckodriver.exe', options=options)
+driver = webdriver.Firefox(executable_path=r'C:\WebDrivers\geckodriver.exe')#, options=options) ->  Mine command showing error while taking options
 sleep(2)
 driver.get('https://www.cowin.gov.in/home')
 sleep(3)
