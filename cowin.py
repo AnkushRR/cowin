@@ -57,3 +57,4 @@ def search_for_availability():
     #     search_for_availability()
 
 search_for_availability()
+driver.close()  # Automatically close the tab
