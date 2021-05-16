@@ -50,9 +50,10 @@ def search_for_availability():
                     beep(6)
                     #found = True
 
-
-    if not found:
-        print('searching again..')
-        search_for_availability()
+  
+# No need of Recursion as we are running program every 30 seconds  
+    # if not found:
+    #     print('searching again..')
+    #     search_for_availability()
 
 search_for_availability()
