@@ -18,7 +18,7 @@ Script to check the available slots for Covid-19 Vaccination Centers from CoWIN 
 - Enter the command - `cd /path/to/cloned/repo`
 - Install all the dependencies - `pip3 install -r requirements.txt`
 - Modify the script for your state and district
-- Run the python application - `python3 cowin.py`
+- Run the python application - `python3 script.py`
 &nbsp;
 
 # Note
